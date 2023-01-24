@@ -22,7 +22,7 @@ public class Character {
     }
 
     void giveWeapon(Weapon weaponName) {
-        System.out.println(name + " now owns a " + weaponName.name + " and it deals " + weaponName.damage + " true damage" );
+        System.out.println(name + " now owns a " + weaponName.name + " and it deals " + weaponName.damage + "% true damage" );
     }
 
 }
